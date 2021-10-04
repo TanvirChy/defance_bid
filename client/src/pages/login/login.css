@@ -1,0 +1,68 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ) ,
+    url('https://media.istockphoto.com/vectors/website-security-and-user-authorization-creation-vector-id1194166998?k=20&m=1194166998&s=612x612&w=0&h=tURytLmvoygRBSXT3UgOniIlLzPdCZA2RrrUxSZAYb4=');
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginForm > label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: wheat;
+    border: none;
+
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(224, 183, 168);
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

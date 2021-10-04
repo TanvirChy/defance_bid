@@ -1,0 +1,33 @@
+.conactcontainer{
+
+padding: 30px;
+width: 100vw;
+height: 80vh;
+top: 50px;
+background-color: rgba(0, 0, 139, 0.315);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.contacttitle{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    color: black;
+
+}
+.contactdiv{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+}
+.contp{
+    font-size: 25px;
+
+}
